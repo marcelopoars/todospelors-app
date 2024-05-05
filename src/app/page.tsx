@@ -13,7 +13,9 @@ export default function Home() {
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-8">
         <Card>
           <CardHeader>
-            <CardTitle className="leading-tight">Vaquinhas SOS Enchentes</CardTitle>
+            <CardTitle className="leading-tight">
+              Vaquinhas SOS Enchentes
+            </CardTitle>
           </CardHeader>
           <CardContent>
             <p>
@@ -37,7 +39,30 @@ export default function Home() {
 
         <Card>
           <CardHeader>
-            <CardTitle className="leading-tight">Doações de itens básicos</CardTitle>
+            <CardTitle className="leading-tight">
+              Pix para a conta SOS Rio Grande do Sul
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <p>
+              Diante da situação de calamidade pública enfrentada no Estado, o
+              governo gaúcho reativou o canal de doações para a conta SOS Rio
+              Grande do Sul.
+            </p>
+            <p>
+              Esta iniciativa centraliza a ajuda financeira e fornece segurança
+              e transparência no recebimento e na destinação dos recursos.
+            </p>
+
+            <p className="font-bold">Chave Pix (CNPJ): 92.958.800/0001-38</p>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle className="leading-tight">
+              Doações de itens básicos
+            </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
             <p>
