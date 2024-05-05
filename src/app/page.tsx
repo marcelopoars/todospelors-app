@@ -13,7 +13,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-8">
         <Card>
           <CardHeader>
-            <CardTitle className="leading-tight">
+            <CardTitle className="text-xl lg:text-2xl leading-tight">
               Vaquinhas SOS Enchentes
             </CardTitle>
           </CardHeader>
@@ -39,7 +39,7 @@ export default function Home() {
 
         <Card>
           <CardHeader>
-            <CardTitle className="leading-tight">
+            <CardTitle className="text-xl lg:text-2xl leading-tight">
               Pix para a conta SOS Rio Grande do Sul
             </CardTitle>
           </CardHeader>
@@ -60,7 +60,7 @@ export default function Home() {
 
         <Card>
           <CardHeader>
-            <CardTitle className="leading-tight">
+            <CardTitle className="text-xl lg:text-2xl leading-tight">
               Doações de itens básicos
             </CardTitle>
           </CardHeader>
