@@ -36,7 +36,20 @@ export default function RootLayout({
       <body
         className={`${inter.className} flex flex-col min-h-screen text-pretty`}
       >
-        {children}
+        <header className="p-6">
+          <div className="max-w-7xl mx-auto text-center mb-12">
+            <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-4">
+              Todos pelo RS
+            </h1>
+            <p className="text-xl lg:text-3xl">
+              Saiba como ajudar as vítimas das enchentes no{" "}
+              <strong>Rio Grande do Sul</strong>.
+            </p>
+          </div>
+        </header>
+
+        <main className="flex-1">{children}</main>
+
         <footer className="p-6 text-center">
           <p>
             Desenvolvido com ❤️ por{" "}
