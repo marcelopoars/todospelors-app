@@ -5,9 +5,25 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], weight: ["400", "600", "700"] });
 
 export const metadata: Metadata = {
+  generator: "Next.js",
+  applicationName: "Todos pelo RS",
+  category: "communication",
+  authors: [{ name: "Marcelo Pereira", url: "https://marcelopereira.dev" }],
+  creator: "Marcelo Pereira",
   title: "Todos pelo RS",
   description:
     "Saiba como ajudar as vítimas das enchentes no Rio Grande do Sul",
+  metadataBase: new URL("https://todospelors.com.br"),
+  openGraph: {
+    type: "website",
+    countryName: "Brasil",
+    url: "https://todospelors.com.br",
+    locale: "pt_br",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
