@@ -36,8 +36,8 @@ export default function RootLayout({
       <body
         className={`${inter.className} flex flex-col min-h-screen text-pretty`}
       >
-        <header className="p-6">
-          <div className="max-w-7xl mx-auto text-center mb-12">
+        <header className="px-6 pt-8 lg:pt-12 lg:mb-12">
+          <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl lg:text-6xl font-black leading-tight mb-4">
               Todos pelo RS
             </h1>
