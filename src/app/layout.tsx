@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"], weight: ["400", "600", "700"] });
+const inter = Inter({ subsets: ["latin"], weight: ["400", "600", "700", '900'] });
 
 export const metadata: Metadata = {
   generator: "Next.js",
@@ -38,7 +38,7 @@ export default function RootLayout({
       >
         <header className="p-6">
           <div className="max-w-7xl mx-auto text-center mb-12">
-            <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-4">
+            <h1 className="text-4xl lg:text-6xl font-black leading-tight mb-4">
               Todos pelo RS
             </h1>
             <p className="text-xl lg:text-3xl">
